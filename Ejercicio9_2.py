@@ -27,5 +27,4 @@ while (noSalir) :
     if (salida == "n") :
         noSalir = False
 
-
 fichero.close()

@@ -7,7 +7,7 @@
 
 import csv
 
-print("BICIS STORE S.A.")
+print("BICIS STORE S.A.\n")
 
 fichero = open("bicisstore.csv","r")
 contenido = csv.reader(fichero)
@@ -15,8 +15,10 @@ contenido = csv.reader(fichero)
 listadoBicis = list(contenido)
 print(listadoBicis)
 
-for row in listadoBicis :
-    print(row)
+for row in listadoBicis: 
+    for col in row :
+        print(col, end="\t")
+    print("\n")
 
 
 
