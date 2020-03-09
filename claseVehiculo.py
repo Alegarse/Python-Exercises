@@ -2,7 +2,8 @@
 
 # Ejercicio 10. Programación Orientada a Objetos
 
-class Vehiculo() :    
+class Vehiculo() :
+
     cantidad = 0
     color = "Gris Amazonite"
     ancho = 2.098
@@ -32,7 +33,7 @@ class Vehiculo() :
     def conducir(self) :
         if Vehiculo.gasolina >=1 :
             Vehiculo.gasolina -= 1
-            print("Quedan %d " % Vehiculo.gasolina)
+            print("Quedan %d litros" % Vehiculo.gasolina)
         else :
             print("No se mueve...")
 
